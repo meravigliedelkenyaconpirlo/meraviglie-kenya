@@ -421,6 +421,63 @@ grid-template-columns:1fr;
 }
 
 }
+/* WHATSAPP */
+
+.whatsapp{
+
+position:fixed;
+bottom:30px;
+right:30px;
+width:70px;
+height:70px;
+z-index:9999;
+
+animation:float 2s infinite;
+
+}
+
+.whatsapp img{
+
+width:100%;
+border-radius:50%;
+box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-10px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+.whatsapp{
+
+width:60px;
+height:60px;
+
+}
+
+}
 
 
 

@@ -59,3 +59,52 @@ showSlide(current);
 });
 
 });
+const reviews=document.querySelectorAll(".review");
+
+const reviewDots=document.querySelectorAll(".review-dot");
+
+let reviewIndex=0;
+
+
+function showReview(index){
+
+reviews.forEach(card=>
+card.classList.remove("active"));
+
+reviewDots.forEach(dot=>
+dot.classList.remove("active"));
+
+reviews[index].classList.add("active");
+
+reviewDots[index].classList.add("active");
+
+}
+
+
+setInterval(()=>{
+
+reviewIndex++;
+
+if(reviewIndex>=reviews.length){
+
+reviewIndex=0;
+
+}
+
+showReview(reviewIndex);
+
+},5000);
+
+
+
+reviewDots.forEach((dot,index)=>{
+
+dot.addEventListener("click",()=>{
+
+reviewIndex=index;
+
+showReview(index);
+
+})
+
+})

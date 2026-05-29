@@ -239,11 +239,32 @@ margin:auto;
 
 }
 
-
-
 /* =========================
-   SAFARI CARDS
+   SAFARI SECTION
 ========================= */
+
+.safari{
+
+padding:120px 8%;
+
+background:#f8f5f2;
+
+}
+
+.safari h2{
+
+font-size:65px;
+
+text-align:center;
+
+margin-bottom:20px;
+
+color:#111;
+
+}
+
+
+/* GRID */
 
 .cards{
 
@@ -255,6 +276,8 @@ repeat(auto-fit,minmax(340px,1fr));
 gap:35px;
 
 margin-top:70px;
+
+align-items:stretch;
 
 }
 
@@ -273,13 +296,17 @@ box-shadow:0 8px 30px rgba(0,0,0,.08);
 
 transition:.4s;
 
-position:relative;
+display:flex;
+
+flex-direction:column;
+
+height:100%;
 
 }
 
 .safari-card:hover{
 
-transform:translateY(-12px);
+transform:translateY(-10px);
 
 box-shadow:0 15px 40px rgba(0,0,0,.12);
 
@@ -296,6 +323,8 @@ height:280px;
 
 overflow:hidden;
 
+flex-shrink:0;
+
 }
 
 .safari-image img{
@@ -305,11 +334,13 @@ height:100%;
 
 object-fit:cover;
 
+display:block;
+
 transition:.6s;
 
 }
 
-.safari-card:hover img{
+.safari-card:hover .safari-image img{
 
 transform:scale(1.08);
 
@@ -333,11 +364,13 @@ padding:10px 18px;
 
 border-radius:50px;
 
-font-size:14px;
+font-size:13px;
 
 font-weight:600;
 
 letter-spacing:1px;
+
+backdrop-filter:blur(4px);
 
 }
 
@@ -348,15 +381,23 @@ letter-spacing:1px;
 
 padding:35px;
 
+display:flex;
+
+flex-direction:column;
+
+flex:1;
+
 }
 
 .safari-content h3{
 
-font-size:34px;
+font-size:32px;
 
 margin-bottom:18px;
 
 color:#111;
+
+line-height:1.2;
 
 }
 
@@ -366,9 +407,11 @@ color:#666;
 
 line-height:1.8;
 
-font-size:17px;
+font-size:16px;
 
-margin-bottom:35px;
+margin-bottom:30px;
+
+flex:1;
 
 }
 
@@ -381,6 +424,8 @@ display:flex;
 
 gap:15px;
 
+margin-top:auto;
+
 }
 
 
@@ -391,7 +436,7 @@ gap:15px;
 
 flex:1;
 
-padding:16px;
+padding:15px;
 
 border-radius:50px;
 
@@ -401,18 +446,18 @@ text-decoration:none;
 
 font-weight:600;
 
-transition:.4s;
+font-size:15px;
 
-font-size:16px;
+transition:.4s;
 
 }
 
 
-/* DETAILS */
+/* DETAILS BUTTON */
 
 .btn-details{
 
-background:#f3f3f3;
+background:#f2f2f2;
 
 color:#111;
 
@@ -427,7 +472,7 @@ color:#fff;
 }
 
 
-/* BOOK */
+/* BOOK BUTTON */
 
 .btn-book{
 
@@ -448,15 +493,47 @@ background:#b76d3f;
 
 @media(max-width:768px){
 
+.safari{
+
+padding:90px 6%;
+
+}
+
+.safari h2{
+
+font-size:42px;
+
+}
+
 .cards{
 
 grid-template-columns:1fr;
+
+gap:25px;
+
+}
+
+.safari-content{
+
+padding:28px;
 
 }
 
 .safari-content h3{
 
-font-size:28px;
+font-size:26px;
+
+}
+
+.safari-image{
+
+height:240px;
+
+}
+
+.safari-footer{
+
+flex-direction:column;
 
 }
 

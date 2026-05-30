@@ -2685,7 +2685,7 @@ font-size:42px;
 }
 
 .info-box li::before{
-    content: "•";
+    content: "✓";
     position: absolute;
     left: 0;
     color: #d88a54;

@@ -2727,3 +2727,34 @@ font-size:42px;
 .gallery-track img:hover{
     transform:scale(1.03);
 }
+/* EXCURSION GALLERY */
+
+.excursion-gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin:40px 0;
+}
+
+.excursion-gallery img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    display:block;
+    transition:.4s;
+}
+
+.excursion-gallery img:hover{
+    transform:scale(1.03);
+}
+
+@media(max-width:768px){
+    .excursion-gallery{
+        grid-template-columns:1fr;
+    }
+
+    .excursion-gallery img{
+        height:200px;
+    }
+}

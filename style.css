@@ -2696,5 +2696,7 @@ font-size:42px;
 }
 
 .info-box h3{
-    text-align: center;
+    text-align:left;
+    color:#d88a54;
+    margin-bottom:20px;
 }

@@ -2446,7 +2446,13 @@ font-size:42px;
     padding:100px 7%;
     background:#f8f6f4;
 }
+.excursions .section-title h2{
+    color:#111 !important;
+}
 
+.excursions .section-title p{
+    color:#666 !important;
+}
 .section-title{
     text-align:center;
     margin-bottom:60px;

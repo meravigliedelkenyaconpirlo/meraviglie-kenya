@@ -2568,3 +2568,104 @@ font-size:42px;
     margin:auto;
     line-height:1.7;
 }
+/* =========================
+   ITINERARY PAGES
+========================= */
+
+.itinerary-hero{
+    height:60vh;
+    background:url("images/isola-amore.jpg") center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    position:relative;
+}
+
+.itinerary-hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+}
+
+.itinerary-hero-content{
+    position:relative;
+    z-index:2;
+    color:#fff;
+}
+
+.itinerary-hero-content h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.itinerary-hero-content p{
+    font-size:20px;
+}
+
+.itinerary-section{
+    padding:80px 10%;
+    background:#f8f8f8;
+}
+
+.itinerary-container{
+    max-width:1000px;
+    margin:auto;
+}
+
+.day-card,
+.info-box{
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    margin-bottom:25px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.day-card h2,
+.info-box h3{
+    color:#d88a54;
+    margin-bottom:15px;
+}
+
+.day-card p{
+    line-height:1.9;
+    color:#555;
+}
+
+.info-box ul{
+    padding-left:20px;
+}
+
+.info-box li{
+    margin-bottom:10px;
+    color:#555;
+}
+
+.book-btn{
+    display:inline-block;
+    background:#d88a54;
+    color:#fff;
+    text-decoration:none;
+    padding:16px 35px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.book-btn:hover{
+    background:#b86e3f;
+}
+
+@media(max-width:768px){
+
+    .itinerary-hero-content h1{
+        font-size:38px;
+    }
+
+    .itinerary-section{
+        padding:60px 20px;
+    }
+
+}

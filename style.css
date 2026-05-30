@@ -2700,3 +2700,30 @@ font-size:42px;
     color:#d88a54;
     margin-bottom:20px;
 }
+/* =========================
+   EXCURSION GALLERY
+========================= */
+
+.gallery-slider{
+    padding:60px 8%;
+    background:#fff;
+}
+
+.gallery-track{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.gallery-track img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:.4s;
+    cursor:pointer;
+}
+
+.gallery-track img:hover{
+    transform:scale(1.03);
+}

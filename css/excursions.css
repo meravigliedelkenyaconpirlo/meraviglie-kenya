@@ -106,4 +106,130 @@ flex:1;
 margin-top:auto;
 }
 
+/* ==========================
+   PIRLO SERVICES HOME ONLY
+========================== */
+
+.home-pirlo-services{
+    padding:50px 5%;
+    background:#fff;
+}
+
+.home-pirlo-header{
+    max-width:1100px;
+    margin:auto;
+    margin-bottom:35px;
+}
+
+.home-pirlo-small-title{
+    color:#d88a4a;
+    font-size:22px;
+    font-family:cursive;
+}
+
+.home-pirlo-header h2{
+    font-size:38px;
+    color:#000;
+    margin:10px 0 15px;
+}
+
+.home-pirlo-text{
+    font-size:16px;
+    line-height:1.8;
+    color:#555;
+}
+
+.home-pirlo-icons{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+    margin-top:40px;
+    text-align:center;
+}
+
+.home-pirlo-item{
+    text-align:center;
+}
+
+.home-pirlo-circle{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background:#1f2c68;
+    margin:auto;
+    position:relative;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.home-pirlo-circle img{
+    width:55px;
+    height:55px;
+    object-fit:contain;
+}
+
+.home-pirlo-item h3{
+    margin-top:15px;
+    font-size:18px;
+    font-weight:700;
+    color:#000;
+}
+
+.home-escursioni-banner{
+    background:#d88a4a;
+    text-align:center;
+    padding:30px 20px;
+}
+
+.home-escursioni-banner h2{
+    font-size:32px;
+    margin:0;
+    color:#000;
+}
+
+.home-escursioni-banner span{
+    color:#fff;
+    font-family:cursive;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .home-pirlo-icons{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .home-pirlo-header h2{
+        font-size:30px;
+    }
+
+.home-pirlo-circle{
+position:relative;
+overflow:hidden;
+}
+
+.home-pirlo-circle .letter{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+font-size:120px;
+font-weight:900;
+color:#d88a4a;
+z-index:1;
+display:block;
+line-height:1;
+}
+
+.home-pirlo-circle img{
+position:absolute;
+bottom:10px;
+left:50%;
+transform:translateX(-50%);
+width:95px;
+z-index:2;
+}
 

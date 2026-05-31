@@ -631,6 +631,24 @@ flex-direction:column;
 .excursion-btn:hover{
     background:#16204a;
 }
+.excursion-card{
+display:flex;
+flex-direction:column;
+height:100%;
+}
+
+.excursion-content{
+display:flex;
+flex-direction:column;
+flex:1;
+}
+
+.excursion-btn{
+margin-top:auto;
+}
+
+
+
 /* FOOTER */
 
 footer{

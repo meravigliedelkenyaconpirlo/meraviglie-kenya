@@ -2563,11 +2563,6 @@ font-size:42px;
     justify-content:center;
 }
 .pirlo-circle .letter{
-    position:absolute;
-    font-size:8rem;
-    font-weight:900;
-    color:#d88a4a;
-    opacity:0.25;   /* makes letter visible behind icon */
-    z-index:1;
-    line-height:1;
-}
+        font-size:6rem;
+    }
+

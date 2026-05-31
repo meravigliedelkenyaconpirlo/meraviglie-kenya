@@ -2490,6 +2490,7 @@ font-size:42px;
     border-radius:50%;
     background:#1f2c68;
     margin:auto;
+    position:relative;
 
     display:flex;
     align-items:center;
@@ -2542,12 +2543,13 @@ font-size:42px;
         width:100px;
         height:100px;
     }
-
-    .home-pirlo-circle img{
-       width:100px;
-    position:relative;
+.home-pirlo-circle img{
+    position:absolute;
+    bottom:15px;
+    left:50%;
+    transform:translateX(-50%);
+    width:110px;
     z-index:2;
-    }
 }
 .pirlo-circle{
     width:200px;
@@ -2562,7 +2564,15 @@ font-size:42px;
     align-items:center;
     justify-content:center;
 }
-.pirlo-circle .letter{
-        font-size:6rem;
-    }
+.home-pirlo-circle .letter{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size:9rem;
+    font-weight:900;
+    color:#d88a4a;
+    line-height:1;
+    z-index:1;
+}
 

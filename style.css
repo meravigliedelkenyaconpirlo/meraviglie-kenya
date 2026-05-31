@@ -2439,121 +2439,112 @@ font-size:42px;
 
 }
 
-/* PIRLO SERVICES */
+/* ==========================
+   PIRLO SERVICES HOME ONLY
+========================== */
 
-.pirlo-services{
-    padding:80px 8%;
+.home-pirlo-services{
+    padding:50px 5%;
     background:#fff;
 }
 
-.pirlo-small-title{
+.home-pirlo-header{
+    max-width:1100px;
+    margin:auto;
+    margin-bottom:35px;
+}
+
+.home-pirlo-small-title{
     color:#d88a4a;
-    font-size:2rem;
+    font-size:22px;
     font-family:cursive;
 }
 
-.pirlo-services h2{
-    font-size:3rem;
+.home-pirlo-header h2{
+    font-size:38px;
     color:#000;
-    margin:10px 0 20px;
+    margin:10px 0 15px;
 }
 
-.pirlo-text{
-    font-size:1.2rem;
+.home-pirlo-text{
+    font-size:16px;
     line-height:1.8;
     color:#555;
-    max-width:1200px;
 }
 
-.pirlo-icons{
+.home-pirlo-icons{
     display:grid;
     grid-template-columns:repeat(4,1fr);
-    gap:40px;
-    margin-top:60px;
+    gap:25px;
+    margin-top:40px;
     text-align:center;
 }
 
-.pirlo-circle{
-    width:200px;
-    height:200px;
+.home-pirlo-item{
+    text-align:center;
+}
+
+.home-pirlo-circle{
+    width:120px;
+    height:120px;
     border-radius:50%;
     background:#1f2c68;
     margin:auto;
-    position:relative;
-    overflow:hidden;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
-.pirlo-circle .letter{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    font-size:9rem;
-    font-weight:900;
-    color:#d88a4a;
-    line-height:1;
+.home-pirlo-circle img{
+    width:55px;
+    height:55px;
+    object-fit:contain;
 }
 
-.pirlo-circle img{
-    position:absolute;
-    bottom:15px;
-    left:50%;
-    transform:translateX(-50%);
-    width:110px;
-    z-index:2;
-}
-
-.pirlo-item h3{
-    margin-top:20px;
-    font-size:2rem;
+.home-pirlo-item h3{
+    margin-top:15px;
+    font-size:18px;
     font-weight:700;
     color:#000;
 }
 
-/* ORANGE STRIP */
-
-.escursioni-banner{
+.home-escursioni-banner{
     background:#d88a4a;
     text-align:center;
-    padding:45px 20px;
+    padding:30px 20px;
 }
 
-.escursioni-banner h2{
-    font-size:3.5rem;
+.home-escursioni-banner h2{
+    font-size:32px;
+    margin:0;
     color:#000;
-    margin-bottom:0;
 }
 
-.escursioni-banner span{
+.home-escursioni-banner span{
     color:#fff;
-    font-size:3rem;
     font-family:cursive;
 }
 
+/* MOBILE */
+
 @media(max-width:768px){
 
-    .pirlo-icons{
+    .home-pirlo-icons{
         grid-template-columns:repeat(2,1fr);
     }
 
-    .pirlo-circle{
-        width:140px;
-        height:140px;
+    .home-pirlo-header h2{
+        font-size:30px;
     }
 
-    .pirlo-circle .letter{
-        font-size:6rem;
+    .home-pirlo-circle{
+        width:100px;
+        height:100px;
     }
 
-    .pirlo-circle img{
-        width:75px;
-    }
-
-    .pirlo-services h2{
-        font-size:2.3rem;
-    }
-
-    .pirlo-item h3{
-        font-size:1.2rem;
+    .home-pirlo-circle img{
+        width:45px;
+        height:45px;
     }
 }

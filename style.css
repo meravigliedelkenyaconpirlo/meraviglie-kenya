@@ -2758,121 +2758,120 @@ font-size:42px;
         height:200px;
     }
 }
-/* PIRLO SERVICES */
+
+
+
+/* ==========================
+   PIRLO SERVICES SECTION
+========================== */
 
 .pirlo-services{
-    padding:80px 8%;
+    padding:60px 5%;
     background:#fff;
 }
 
-.pirlo-small-title{
-    color:#d88a4a;
-    font-size:2rem;
+.pirlo-header{
+    max-width:1100px;
+    margin:0 auto 50px;
+}
+
+.pirlo-header .subtitle{
+    color:#d8894d;
+    font-size:28px;
     font-family:cursive;
+    margin-bottom:10px;
 }
 
-.pirlo-services h2{
-    font-size:4rem;
+.pirlo-header h2{
+    font-size:60px;
+    line-height:1.1;
+    margin-bottom:20px;
+    font-weight:700;
     color:#000;
-    margin:10px 0 20px;
 }
 
-.pirlo-text{
-    font-size:1.2rem;
+.pirlo-header p{
+    font-size:18px;
     line-height:1.8;
     color:#555;
     max-width:1200px;
 }
 
-.pirlo-icons{
+/* Services Row */
+
+.services-grid{
     display:grid;
     grid-template-columns:repeat(4,1fr);
-    gap:40px;
-    margin-top:60px;
+    gap:30px;
+    text-align:center;
+    max-width:1400px;
+    margin:auto;
+}
+
+.service-item{
     text-align:center;
 }
 
-.pirlo-circle{
-    width:200px;
-    height:200px;
+/* Circle */
+
+.service-circle{
+    width:160px;
+    height:160px;
+    background:#1d2c67;
     border-radius:50%;
-    background:#1f2c68;
-    margin:auto;
-    position:relative;
-    overflow:hidden;
+    margin:0 auto 20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:70px;
+    color:#d8894d;
 }
 
-.pirlo-circle .letter{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    font-size:9rem;
-    font-weight:900;
-    color:#d88a4a;
-    line-height:1;
-}
+/* Titles */
 
-.pirlo-circle img{
-    position:absolute;
-    bottom:15px;
-    left:50%;
-    transform:translateX(-50%);
-    width:110px;
-    z-index:2;
-}
-
-.pirlo-item h3{
-    margin-top:20px;
-    font-size:2rem;
+.service-item h3{
+    font-size:28px;
+    margin:0;
     font-weight:700;
     color:#000;
 }
 
-/* ORANGE STRIP */
+/* Mobile */
 
-.escursioni-banner{
-    background:#d88a4a;
-    text-align:center;
-    padding:45px 20px;
-}
+@media(max-width:900px){
 
-.escursioni-banner h2{
-    font-size:3.5rem;
-    color:#000;
-    margin-bottom:0;
-}
-
-.escursioni-banner span{
-    color:#fff;
-    font-size:3rem;
-    font-family:cursive;
-}
-
-@media(max-width:768px){
-
-    .pirlo-icons{
+    .services-grid{
         grid-template-columns:repeat(2,1fr);
     }
 
-    .pirlo-circle{
-        width:140px;
-        height:140px;
+    .pirlo-header h2{
+        font-size:42px;
     }
 
-    .pirlo-circle .letter{
-        font-size:6rem;
+    .service-circle{
+        width:120px;
+        height:120px;
+        font-size:50px;
     }
 
-    .pirlo-circle img{
-        width:75px;
+    .service-item h3{
+        font-size:22px;
+    }
+}
+
+@media(max-width:600px){
+
+    .services-grid{
+        grid-template-columns:1fr;
     }
 
-    .pirlo-services h2{
-        font-size:2.3rem;
+    .pirlo-header h2{
+        font-size:34px;
     }
 
-    .pirlo-item h3{
-        font-size:1.2rem;
+    .pirlo-header p{
+        font-size:16px;
     }
 }

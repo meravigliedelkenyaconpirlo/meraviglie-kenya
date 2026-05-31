@@ -1,3 +1,29 @@
+/* ABOUT */
+
+.about{
+
+padding:100px 8%;
+background:white;
+text-align:center;
+
+}
+
+.about h2{
+
+font-size:40px;
+margin-bottom:25px;
+color:#0f6f73;
+
+}
+
+.container{
+
+max-width:900px;
+margin:auto;
+
+}
+
+
 /* ABOUT PAGE */
 
 .about-hero{

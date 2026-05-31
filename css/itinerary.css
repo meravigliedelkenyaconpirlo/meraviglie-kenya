@@ -416,3 +416,40 @@ font-weight:700;
     line-height: 1.8;
 }
 
+
+/* DAY CARD */
+
+.day-card {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 35px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+}
+
+.day-number {
+    min-width: 90px;
+    height: 90px;
+    background: #d88a54;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.day-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.day-content p {
+    color: #555;
+    line-height: 1.9;
+    font-size: 17px;
+}

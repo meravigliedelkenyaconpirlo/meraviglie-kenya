@@ -259,3 +259,40 @@ line-height:1.8;
 color:#666;
 
 }
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.about-hero{
+
+grid-template-columns:1fr;
+
+}
+
+.about-text h1{
+
+font-size:50px;
+
+}
+
+.team-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.values-section{
+
+grid-template-columns:1fr;
+
+}
+
+.team-title h2{
+
+font-size:45px;
+
+}
+
+}
+

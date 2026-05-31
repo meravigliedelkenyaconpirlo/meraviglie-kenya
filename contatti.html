@@ -141,35 +141,28 @@ Sempre aperto
 <!-- RIGHT -->
 
 <div class="contact-form">
-
 <h2>Info e prenotazioni</h2>
+  
+<form action="https://formspree.io/f/mbdbepyl" method="POST">
 
-<form action="https://formspree.io/f/YOUR_ID"
-method="POST">
+    <input type="hidden"
+           name="_subject"
+           value="Nuova richiesta safari dal sito web">
 
+    <input type="text"
+           name="_gotcha"
+           style="display:none">
 
-<label>Nome e Cognome</label>
-
-<input type="text" name="nome" required>
-
-
+    <label>Nome e Cognome</label>
+    <input type="text" name="nome" required>
 
 <label>La tua email</label>
-
 <input type="email" name="email" required>
-
-
-
 <label>
 Il tuo numero di telefono per essere contattato più velocemente anche via whatsapp
 </label>
-
 <input type="tel" name="telefono">
-
-
-
 <label>Quanti adulti parteciperanno?</label>
-
 <select name="adulti">
 
 <option>1</option>
@@ -177,34 +170,27 @@ Il tuo numero di telefono per essere contattato più velocemente anche via whats
 <option>3</option>
 <option>4</option>
 <option>5+</option>
-
 </select>
-
-
 
 <label>
 Quanti bambini parteciperanno (età inferiore ai 10 anni)
 </label>
-
 <select name="bambini">
-
 <option>nessuno</option>
 <option>1</option>
 <option>2</option>
 <option>3+</option>
-
 </select>
 
 
-
 <!-- SAFARI -->
-
 <label>
 Quali Safari ti piacerebbe vivere? (facoltativo)
 </label>
 
+  
 <div class="radio-group">
-
+  
 <label>
 <input type="checkbox" name="safari[]" value="2 Giorni Tsavo East">
 2 Giorni Tsavo East
@@ -243,27 +229,31 @@ Quali escursioni vorresti fare? (facoltativo)
 <div class="radio-group">
 
 <label>
-<input type="checkbox" name="escursioni[]">
+<input
+type="checkbox"
+name="escursioni[]"
+value="Tour di Malindi">
 Tour di Malindi
 </label>
 
+  
 <label>
-<input type="checkbox" name="escursioni[]">
+<input type="checkbox" name="escursioni[]" value="Marafa Hell's Kitchen">
 Marafa Hell's Kitchen
 </label>
 
 <label>
-<input type="checkbox" name="escursioni[]">
+<input type="checkbox" name="escursioni[]" value="Isola dell'Amore">
 Isola dell'Amore
 </label>
 
 <label>
-<input type="checkbox" name="escursioni[]">
+<input type="checkbox" name="escursioni[]" value="Mangrovie in canoa">
 Mangrovie in canoa
 </label>
 
 <label>
-<input type="checkbox" name="escursioni[]">
+<input type="checkbox" name="escursioni[]" value="Safari Blu">
 Safari Blu
 </label>
 

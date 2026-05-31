@@ -2544,7 +2544,33 @@ font-size:42px;
     }
 
     .home-pirlo-circle img{
-        width:45px;
-        height:45px;
+       width:100px;
+    position:relative;
+    z-index:2;
     }
+}
+.pirlo-circle{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    background:#1f2c68;
+    margin:auto;
+    position:relative;
+    overflow:hidden;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* BIG LETTER */
+
+.pirlo-circle .letter{
+    position:absolute;
+    font-size:8rem;
+    font-weight:900;
+    color:#d88a4a;
+    opacity:0.25;   /* makes letter visible behind icon */
+    z-index:1;
+    line-height:1;
 }

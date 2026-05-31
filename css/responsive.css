@@ -22,3 +22,85 @@ font-size:17px;
 }
 
 }
+
+@media(max-width:900px){
+
+.reviews-container{
+
+grid-template-columns:1fr;
+
+}
+
+.review-animal{
+
+display:none;
+
+}
+
+.review-title h2{
+
+font-size:45px;
+
+}
+
+}
+/* mobile */
+
+@media(max-width:900px){
+
+.pre-footer{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.contact-item{
+
+justify-content:center;
+
+}
+
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.day-card{
+
+flex-direction:column;
+
+}
+
+.included-section{
+
+grid-template-columns:1fr;
+
+}
+
+.itinerary-header h2{
+
+font-size:45px;
+
+}
+
+}
+/* MOBILE */
+
+@media(max-width:900px){
+
+.contact-page{
+
+grid-template-columns:1fr;
+
+}
+
+.contact-form h2{
+
+font-size:45px;
+
+}
+
+}

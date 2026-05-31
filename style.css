@@ -2438,429 +2438,121 @@ font-size:42px;
     }
 
 }
-/* =========================
-   ESCURSIONI
-========================= */
-
-.excursions{
-    padding:100px 7%;
-    background:#f8f6f4;
-}
-.excursions .section-title h2{
-    color:#111 !important;
-}
-
-.excursions .section-title p{
-    color:#666 !important;
-}
-.section-title{
-    text-align:center;
-    margin-bottom:60px;
-}
-
-.section-title h2{
-    font-size:60px;
-    margin-bottom:15px;
-}
-
-.section-title p{
-    color:#666;
-    max-width:700px;
-    margin:auto;
-    line-height:1.8;
-}
-
-.excursions-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(330px,1fr));
-    gap:35px;
-}
-
-.excursion-card{
-    background:#fff;
-    border-radius:30px;
-    overflow:hidden;
-    box-shadow:0 8px 30px rgba(0,0,0,.08);
-    transition:.4s;
-}
-
-.excursion-card:hover{
-    transform:translateY(-10px);
-}
-
-.excursion-card img{
-    width:100%;
-    height:280px;
-    object-fit:cover;
-}
-
-.excursion-content{
-    padding:30px;
-}
-
-.excursion-duration{
-    display:inline-block;
-    background:#d88a54;
-    color:#fff;
-    padding:8px 15px;
-    border-radius:50px;
-    font-size:13px;
-    font-weight:600;
-    margin-bottom:18px;
-}
-
-.excursion-content h3{
-    font-size:30px;
-    margin-bottom:15px;
-}
-
-.excursion-content p{
-    color:#666;
-    line-height:1.8;
-    margin-bottom:25px;
-}
-
-.excursion-btn{
-    display:inline-block;
-    background:#111;
-    color:#fff;
-    text-decoration:none;
-    padding:14px 28px;
-    border-radius:50px;
-    transition:.3s;
-}
-
-.excursion-btn:hover{
-    background:#d88a54;
-}
-
-@media(max-width:768px){
-
-.section-title h2{
-    font-size:38px;
-}
-
-.excursion-content h3{
-    font-size:24px;
-}
-
-}
-/* =========================
-   ESCURSIONI TITLE
-========================= */
-
-.excursions .section-title{
-    text-align:center;
-    margin-bottom:60px;
-}
-
-.excursions .section-title h2{
-    color:#111;
-    font-size:55px;
-    font-weight:700;
-    margin-bottom:15px;
-}
-
-.excursions .section-title p{
-    color:#666;
-    font-size:18px;
-    max-width:700px;
-    margin:auto;
-    line-height:1.7;
-}
-/* =========================
-   ITINERARY PAGES
-========================= */
-
-.itinerary-hero{
-    height:60vh;
-    background:url("images/isola-amore-2.jpg") center/cover;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    position:relative;
-}
-
-.itinerary-hero::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:rgba(0,0,0,.45);
-}
-
-.itinerary-hero-content{
-    position:relative;
-    z-index:2;
-    color:#fff;
-}
-
-.itinerary-hero-content h1{
-    font-size:55px;
-    margin-bottom:15px;
-}
-
-.itinerary-hero-content p{
-    font-size:20px;
-}
-
-.itinerary-section{
-    padding:80px 10%;
-    background:#f8f8f8;
-}
-
-.itinerary-container{
-    max-width:1000px;
-    margin:auto;
-}
-
-.day-card,
-.info-box{
-    background:#fff;
-    padding:35px;
-    border-radius:20px;
-    margin-bottom:25px;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
-}
-
-.day-card h2,
-.info-box h3{
-    color:#d88a54;
-    margin-bottom:15px;
-}
-
-.day-card p{
-    line-height:1.9;
-    color:#555;
-}
-
-.info-box ul{
-    padding-left:20px;
-}
-
-.info-box li{
-    margin-bottom:10px;
-    color:#555;
-}
-
-.book-btn{
-    display:inline-block;
-    background:#d88a54;
-    color:#fff;
-    text-decoration:none;
-    padding:16px 35px;
-    border-radius:50px;
-    font-weight:600;
-    transition:.3s;
-}
-
-.book-btn:hover{
-    background:#b86e3f;
-}
-
-@media(max-width:768px){
-
-    .itinerary-hero-content h1{
-        font-size:38px;
-    }
-
-    .itinerary-section{
-        padding:60px 20px;
-    }
-
-}
-.info-box ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.info-box li{
-    position: relative;
-    padding-left: 28px;
-    margin-bottom: 12px;
-    text-align: left;
-    color: #555;
-    line-height: 1.7;
-}
-
-.info-box li::before{
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: #d88a54;
-    font-size: 20px;
-}
-.info-box{
-    text-align: left;
-}
-
-.info-box h3{
-    text-align:left;
-    color:#d88a54;
-    margin-bottom:20px;
-}
-/* =========================
-   EXCURSION GALLERY
-========================= */
-
-.gallery-slider{
-    padding:60px 8%;
-    background:#fff;
-}
-
-.gallery-track{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
-}
-
-.gallery-track img{
-    width:100%;
-    height:260px;
-    object-fit:cover;
-    border-radius:20px;
-    transition:.4s;
-    cursor:pointer;
-}
-
-.gallery-track img:hover{
-    transform:scale(1.03);
-}
-/* EXCURSION GALLERY */
-
-.excursion-gallery{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
-    margin:40px 0;
-}
-
-.excursion-gallery img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
-    border-radius:15px;
-    display:block;
-    transition:.4s;
-}
-
-.excursion-gallery img:hover{
-    transform:scale(1.03);
-}
-
-@media(max-width:768px){
-    .excursion-gallery{
-        grid-template-columns:1fr;
-    }
-
-    .excursion-gallery img{
-        height:200px;
-    }
-}
-
-
-/* ==========================
-   PIRLO SERVICES SECTION
-========================== */
+/* PIRLO SERVICES */
 
 .pirlo-services{
-    padding:40px 5%;
+    padding:80px 8%;
     background:#fff;
 }
 
-.pirlo-header{
-    max-width:1200px;
-    margin:0 auto 30px;
-}
-
-.pirlo-header .subtitle{
-    color:#d8894d;
-    font-size:20px;
+.pirlo-small-title{
+    color:#d88a4a;
+    font-size:2rem;
     font-family:cursive;
-    margin-bottom:5px;
 }
 
-.pirlo-header h2{
-    font-size:32px;
-    line-height:1.2;
-    margin-bottom:15px;
-    font-weight:700;
+.pirlo-services h2{
+    font-size:4rem;
     color:#000;
+    margin:10px 0 20px;
 }
 
-.pirlo-header p{
-    font-size:16px;
-    line-height:1.7;
+.pirlo-text{
+    font-size:1.2rem;
+    line-height:1.8;
     color:#555;
+    max-width:1200px;
 }
 
-/* ICON ROW */
-
-.services-grid{
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    flex-wrap:wrap;
-    gap:20px;
-    margin-top:30px;
-}
-
-.service-item{
-    flex:1;
-    min-width:180px;
+.pirlo-icons{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:40px;
+    margin-top:60px;
     text-align:center;
 }
 
-.service-circle{
-    width:120px;
-    height:120px;
+.pirlo-circle{
+    width:200px;
+    height:200px;
     border-radius:50%;
-    background:#1d2c67;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    margin:0 auto 15px;
+    background:#1f2c68;
+    margin:auto;
+    position:relative;
+    overflow:hidden;
 }
 
-.service-circle img{
-    width:65px;
-    height:65px;
-    object-fit:contain;
+.pirlo-circle .letter{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:9rem;
+    font-weight:900;
+    color:#d88a4a;
+    line-height:1;
 }
 
-.service-item h3{
-    font-size:18px;
+.pirlo-circle img{
+    position:absolute;
+    bottom:15px;
+    left:50%;
+    transform:translateX(-50%);
+    width:110px;
+    z-index:2;
+}
+
+.pirlo-item h3{
+    margin-top:20px;
+    font-size:2rem;
     font-weight:700;
     color:#000;
-    margin:0;
 }
 
-/* MOBILE */
+/* ORANGE STRIP */
+
+.escursioni-banner{
+    background:#d88a4a;
+    text-align:center;
+    padding:45px 20px;
+}
+
+.escursioni-banner h2{
+    font-size:3.5rem;
+    color:#000;
+    margin-bottom:0;
+}
+
+.escursioni-banner span{
+    color:#fff;
+    font-size:3rem;
+    font-family:cursive;
+}
 
 @media(max-width:768px){
 
-    .services-grid{
-        justify-content:center;
+    .pirlo-icons{
+        grid-template-columns:repeat(2,1fr);
     }
 
-    .service-item{
-        min-width:140px;
+    .pirlo-circle{
+        width:140px;
+        height:140px;
     }
 
-    .service-circle{
-        width:100px;
-        height:100px;
+    .pirlo-circle .letter{
+        font-size:6rem;
     }
 
-    .service-circle img{
-        width:55px;
-        height:55px;
+    .pirlo-circle img{
+        width:75px;
     }
 
-    .pirlo-header h2{
-        font-size:28px;
+    .pirlo-services h2{
+        font-size:2.3rem;
+    }
+
+    .pirlo-item h3{
+        font-size:1.2rem;
     }
 }

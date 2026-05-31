@@ -2630,35 +2630,28 @@ font-size:42px;
     }
 
 .home-pirlo-circle{
-    width:200px;
-    height:200px;
-    border-radius:50%;
-    background:#1f2c68;
-    position:relative;
-    margin:auto;
-    overflow:hidden;
+position:relative;
+overflow:hidden;
 }
 
 .home-pirlo-circle .letter{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    font-size:120px;
-    font-weight:900;
-    color:#d88a4a;
-    z-index:1;
-    display:block;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+font-size:120px;
+font-weight:900;
+color:#d88a4a;
+z-index:1;
+display:block;
+line-height:1;
 }
 
 .home-pirlo-circle img{
-    position:absolute;
-    bottom:10px;
-    left:50%;
-    transform:translateX(-50%);
-    width:95px;
-    z-index:2;
+position:absolute;
+bottom:10px;
+left:50%;
+transform:translateX(-50%);
+width:95px;
+z-index:2;
 }
-
-
-

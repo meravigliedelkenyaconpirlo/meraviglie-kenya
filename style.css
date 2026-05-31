@@ -2562,9 +2562,6 @@ font-size:42px;
     align-items:center;
     justify-content:center;
 }
-
-/* BIG LETTER */
-
 .pirlo-circle .letter{
     position:absolute;
     font-size:8rem;

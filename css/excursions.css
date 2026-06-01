@@ -90,20 +90,38 @@
 .excursion-btn:hover{
     background:#16204a;
 }
+
 .excursion-card{
+background:#fff;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+
 display:flex;
 flex-direction:column;
 height:100%;
 }
 
 .excursion-content{
+padding:25px;
+
 display:flex;
 flex-direction:column;
 flex:1;
 }
 
 .excursion-btn{
+display:inline-block;
+background:#1f2c68;
+color:#fff;
+text-decoration:none;
+padding:12px 22px;
+border-radius:8px;
+font-weight:600;
+
 margin-top:auto;
 }
+
 
 

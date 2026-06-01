@@ -193,3 +193,41 @@ justify-content:center;
 }
 
 }
+@media(max-width:768px){
+
+.home-pirlo-icons{
+grid-template-columns:repeat(2,1fr);
+}
+
+.home-pirlo-header h2{
+font-size:30px;
+}
+
+.home-pirlo-circle{
+position:relative;
+overflow:hidden;
+}
+
+.home-pirlo-circle .letter{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+font-size:120px;
+font-weight:900;
+color:#d88a4a;
+z-index:1;
+display:block;
+line-height:1;
+}
+
+.home-pirlo-circle img{
+position:absolute;
+bottom:10px;
+left:50%;
+transform:translateX(-50%);
+width:95px;
+z-index:2;
+}
+
+}

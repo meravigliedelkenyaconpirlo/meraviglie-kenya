@@ -2,7 +2,6 @@
 /* I PLUS SECTION */
 
 .plus-section{
-
 padding:120px 8%;
 display:grid;
 grid-template-columns:1fr 1fr;
@@ -13,14 +12,11 @@ align-items:center;
 }
 
 .plus-left{
-
 position:relative;
 min-height:650px;
-
 }
 
 .img{
-
 position:absolute;
 width:400px;
 border-radius:25px;
@@ -29,15 +25,12 @@ box-shadow:0 20px 40px rgba(0,0,0,.15);
 }
 
 .img1{
-
 top:0;
 left:50px;
 transform:rotate(-10deg);
-
 }
 
 .img2{
-
 top:120px;
 left:130px;
 z-index:2;
@@ -45,7 +38,6 @@ z-index:2;
 }
 
 .img3{
-
 bottom:0;
 left:80px;
 transform:rotate(8deg);
@@ -53,7 +45,6 @@ transform:rotate(8deg);
 }
 
 .balloon{
-
 position:absolute;
 width:180px;
 top:-50px;
@@ -141,35 +132,6 @@ font-size:50px;
 0%{transform:translateY(0);}
 50%{transform:translateY(-20px);}
 100%{transform:translateY(0);}
-
-}
-
-
-@media(max-width:900px){
-
-.plus-section{
-
-grid-template-columns:1fr;
-
-}
-
-.plus-left{
-
-height:550px;
-
-}
-
-.img{
-
-width:250px;
-
-}
-
-.plus-right h2{
-
-font-size:38px;
-
-}
 
 }
 

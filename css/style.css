@@ -198,10 +198,6 @@ bottom:70px;
 grid-template-columns:1fr;
 }
 
-.hero-right{
-display:none;
-}
-
 .hero-left h1{
 font-size:70px;
 }

@@ -231,3 +231,10 @@ z-index:2;
 }
 
 }
+@media(max-width:900px){
+
+.contact-container{
+grid-template-columns:1fr;
+}
+
+}

@@ -2,7 +2,10 @@
 /* =========================
    SAFARI SECTION
 ========================= */
-
+img{
+max-width:100%;
+height:auto;
+}
 .safari{
 
 padding:120px 8%;

@@ -148,3 +148,22 @@ height:220px;
 }
 
 }
+@media(max-width:900px){
+
+.plus-section{
+grid-template-columns:1fr;
+}
+
+.plus-left{
+height:550px;
+}
+
+.img{
+width:250px;
+}
+
+.plus-right h2{
+font-size:38px;
+}
+
+}

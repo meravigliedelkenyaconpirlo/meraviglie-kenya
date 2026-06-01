@@ -148,6 +148,11 @@ height:220px;
 }
 
 }
+
+/* ==========================
+   HOME PAGE
+========================== */
+
 @media(max-width:900px){
 
 .plus-section{
@@ -164,6 +169,27 @@ width:250px;
 
 .plus-right h2{
 font-size:38px;
+}
+
+.reviews-container{
+grid-template-columns:1fr;
+}
+
+.review-animal{
+display:none;
+}
+
+.review-title h2{
+font-size:45px;
+}
+
+.pre-footer{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.contact-item{
+justify-content:center;
 }
 
 }

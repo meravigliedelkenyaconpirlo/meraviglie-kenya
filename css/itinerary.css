@@ -1,384 +1,3 @@
-/* ITINERARY */
-
-.itinerary{
-
-padding:120px 8%;
-background:#f8f5f2;
-
-}
-
-.itinerary-header{
-
-text-align:center;
-margin-bottom:70px;
-
-}
-
-.itinerary-header span{
-
-color:#d78c58;
-font-style:italic;
-font-size:30px;
-
-}
-
-.itinerary-header h2{
-
-font-size:70px;
-margin:15px 0;
-
-}
-
-.itinerary-header p{
-
-max-width:700px;
-margin:auto;
-line-height:1.8;
-font-size:20px;
-
-}
-
-
-/* DAYS */
-
-.day-card{
-
-display:flex;
-gap:40px;
-
-background:white;
-
-padding:50px;
-
-border-radius:30px;
-
-margin-bottom:40px;
-
-box-shadow:0 15px 40px rgba(0,0,0,.06);
-
-}
-
-.day-number{
-
-min-width:100px;
-height:100px;
-
-background:#d78c58;
-
-border-radius:50%;
-
-display:flex;
-justify-content:center;
-align-items:center;
-
-font-size:38px;
-font-weight:700;
-color:white;
-
-}
-
-.day-content h3{
-
-font-size:36px;
-margin-bottom:20px;
-
-}
-
-.day-content p{
-
-line-height:2;
-font-size:18px;
-
-}
-
-
-/* INFO */
-
-.info-grid{
-
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-
-gap:25px;
-
-margin:70px 0;
-
-}
-
-.info-box{
-
-background:white;
-
-padding:35px;
-
-border-radius:25px;
-
-text-align:center;
-
-box-shadow:0 10px 30px rgba(0,0,0,.05);
-
-}
-
-.info-box h4{
-
-margin-bottom:15px;
-font-size:28px;
-
-}
-
-
-/* INCLUDED */
-
-.included-section{
-
-display:grid;
-grid-template-columns:1fr 1fr;
-
-gap:30px;
-
-margin-bottom:60px;
-
-}
-
-.include-box{
-
-background:white;
-
-padding:40px;
-
-border-radius:25px;
-
-box-shadow:0 10px 30px rgba(0,0,0,.05);
-
-}
-
-.include-box h3{
-
-margin-bottom:25px;
-font-size:35px;
-color:#0f6f73;
-
-}
-
-.exclude h3{
-
-color:#c94b4b;
-
-}
-
-.include-box ul{
-
-padding-left:20px;
-
-}
-
-.include-box li{
-
-margin-bottom:18px;
-line-height:1.7;
-
-}
-
-
-/* TIPS */
-
-.tips{
-
-background:#0f6f73;
-
-padding:50px;
-
-border-radius:30px;
-
-color:white;
-
-margin-bottom:40px;
-
-}
-
-.tips h3{
-
-font-size:38px;
-margin-bottom:20px;
-
-}
-
-.tips p{
-
-line-height:2;
-font-size:18px;
-
-}
-
-
-/* NOTE */
-
-.note{
-
-background:#fff4df;
-
-padding:30px;
-
-border-left:8px solid #d78c58;
-
-border-radius:20px;
-
-}
-
-.note p{
-
-line-height:1.8;
-
-}
-
-/* ITINERARY HERO */
-
-.itinerary-hero{
-
-height:70vh;
-
-background:url('images/amboseli-hero.jpg') center/cover;
-
-position:relative;
-
-display:flex;
-align-items:center;
-justify-content:center;
-
-text-align:center;
-
-}
-
-.overlay{
-
-position:absolute;
-
-width:100%;
-height:100%;
-
-background:rgba(0,0,0,.45);
-
-}
-
-.hero-content{
-
-position:relative;
-
-z-index:2;
-
-color:white;
-
-max-width:850px;
-
-padding:20px;
-
-}
-
-.hero-content span{
-
-font-size:28px;
-
-color:#d78c58;
-
-font-family:cursive;
-
-}
-
-.hero-content h1{
-
-font-size:85px;
-
-line-height:1.1;
-
-margin:20px 0;
-
-}
-
-.hero-content p{
-
-font-size:22px;
-
-line-height:1.8;
-
-margin-bottom:40px;
-
-}
-
-.hero-btn{
-
-display:inline-block;
-
-padding:18px 40px;
-
-background:#d78c58;
-
-color:white;
-
-text-decoration:none;
-
-border-radius:50px;
-
-font-weight:600;
-
-transition:.4s;
-
-}
-
-.hero-btn:hover{
-
-background:#b96d3d;
-
-}
-
-
-/* CTA */
-
-.safari-cta{
-
-padding:120px 8%;
-
-text-align:center;
-
-background:#d78c58;
-
-color:white;
-
-}
-
-.safari-cta h2{
-
-font-size:70px;
-
-margin-bottom:20px;
-
-}
-
-.safari-cta p{
-
-font-size:22px;
-
-margin-bottom:40px;
-
-}
-
-.safari-cta a{
-
-display:inline-block;
-
-padding:18px 40px;
-
-background:white;
-
-color:#d78c58;
-
-text-decoration:none;
-
-border-radius:50px;
-
-font-weight:700;
-
-}
-
 
 /* =========================
    ITINERARY PAGE
@@ -394,6 +13,7 @@ font-weight:700;
     text-align: center;
     margin-bottom: 70px;
 }
+
 
 .itinerary-header span {
     color: #d88a54;
@@ -415,7 +35,11 @@ font-weight:700;
     font-size: 18px;
     line-height: 1.8;
 }
-
+.itinerary-container{
+display:flex;
+flex-direction:column;
+gap:30px;
+}
 
 /* DAY CARD */
 
@@ -579,5 +203,51 @@ font-weight:700;
 .note-box p {
     color: #6c5a2b;
     line-height: 1.8;
+}
+.book-btn{
+display:inline-block;
+padding:18px 35px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+text-align:center;
+transition:.3s;
+}
+
+.book-btn:hover{
+background:#1da851;
+}
+.itinerary-hero{
+height:60vh;
+background:url('images/isola-amore-1.jpg') center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+position:relative;
+}
+
+.itinerary-hero::before{
+content:"";
+position:absolute;
+inset:0;
+background:rgba(0,0,0,.45);
+}
+
+.itinerary-hero-content{
+position:relative;
+z-index:2;
+color:white;
+}
+
+.itinerary-hero-content h1{
+font-size:60px;
+margin-bottom:10px;
+}
+
+.itinerary-hero-content p{
+font-size:22px;
 }
 

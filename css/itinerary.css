@@ -250,4 +250,16 @@ margin-bottom:10px;
 .itinerary-hero-content p{
 font-size:22px;
 }
+.itinerary-container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
 
+.day-card{
+width:100%;
+overflow:hidden;
+}
+.day-content{
+max-width:900px;
+}

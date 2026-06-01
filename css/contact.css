@@ -90,17 +90,6 @@ transform:translateY(-5px);
 
 }
 
-@media(max-width:900px){
-
-.contact-container{
-
-grid-template-columns:1fr;
-
-}
-
-}
-
-
 /* CONTACT PAGE */
 
 .contact-page{

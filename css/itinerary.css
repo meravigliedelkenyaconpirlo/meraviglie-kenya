@@ -77,6 +77,13 @@ gap:30px;
     line-height: 1.9;
     font-size: 17px;
 }
+.day-card{
+    text-align:left;
+}
+
+.day-card h2{
+    text-align:left;
+}
 
 /* ==================================
    EXCURSION ITINERARY GALLERY
@@ -114,11 +121,11 @@ gap:30px;
     margin: 70px 0;
 }
 
-.info-box {
-    background: #f7f7f7;
-    padding: 30px;
-    border-radius: 20px;
-    text-align: center;
+.info-box{
+    background:#f7f7f7;
+    padding:30px;
+    border-radius:20px;
+    text-align:left;
 }
 
 .info-box h3 {

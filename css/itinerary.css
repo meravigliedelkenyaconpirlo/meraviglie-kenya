@@ -270,3 +270,31 @@ object-fit:cover;
 border-radius:15px;
 display:block;
 }
+.itinerary-section{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+}
+
+.itinerary-container{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.excursion-gallery{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.excursion-gallery img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+    display:block;
+}

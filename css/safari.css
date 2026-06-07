@@ -281,3 +281,82 @@ flex-direction:column;
 }
 
 }
+/* ==========================
+   SAFARI HERO
+========================== */
+
+.safari-hero{
+    height:60vh;
+    background:url('../images/safari-banner.jpg') center/cover;
+    position:relative;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+
+    padding:0 20px;
+}
+
+.safari-hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+}
+
+.safari-hero h1{
+    position:relative;
+    z-index:2;
+    font-size:70px;
+    margin-bottom:20px;
+}
+
+.safari-hero p{
+    position:relative;
+    z-index:2;
+    max-width:700px;
+    font-size:22px;
+}
+
+/* ==========================
+   WHY PIRLO
+========================== */
+
+.why-pirlo{
+    padding:100px 8%;
+    background:#f8f5f2;
+    text-align:center;
+}
+
+.why-pirlo h2{
+    font-size:55px;
+    margin-bottom:60px;
+    color:#111;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.why-grid div{
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+}
+
+.why-grid h3{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.why-grid p{
+    color:#666;
+    line-height:1.8;
+}

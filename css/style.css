@@ -157,14 +157,6 @@ width:280px;
 right:0;
 bottom:70px;
 }
-.hero-right{
-    position:relative;
-    height:100%;
-    width:100%;
-
-    display:flex;
-    justify-content:flex-end;
-}
 .bag{
 width:300px;
 right:100px;

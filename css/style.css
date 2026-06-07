@@ -89,105 +89,69 @@ background:rgba(0,0,0,.35);
 }
 
 .hero-container{
-
 position:relative;
 z-index:10;
-
 display:grid;
 grid-template-columns:1fr 1fr;
-
 align-items:center;
-
 padding:0 8%;
-
 height:100%;
-
 color:white;
-
 }
-
 .hero-left h1{
-
 font-size:120px;
 font-weight:800;
 line-height:1;
-
 margin:15px 0;
-
 }
-
 .mini-title{
-
 font-size:34px;
 font-style:italic;
-
 }
-
 .hero-left p{
-
 max-width:500px;
 font-size:20px;
 line-height:1.8;
 margin-bottom:35px;
-
 }
 
 .hero-btn{
-
 background:#d78c58;
-
 padding:16px 35px;
-
 border-radius:40px;
-
 color:white;
-
 text-decoration:none;
-
 font-weight:600;
-
 }
-
-
 .hero-right{
-
 position:relative;
 height:100%;
-
 }
-
 .floating{
-
 position:absolute;
 animation:float 6s ease-in-out infinite;
-
 }
-
 .bag{
 width:300px;
 right:100px;
 bottom:120px;
 transform:rotate(-15deg);
 }
-
 .map{
 width:150px;
 right:280px;
 top:170px;
 }
-
 .hat{
 width:140px;
 right:250px;
 bottom:250px;
 }
-
 .ticket{
 width:140px;
 right:80px;
 top:250px;
 }
-
 .sticker{
 width:280px;
 right:0;
@@ -213,75 +177,51 @@ width:140px;
 right:250px;
 bottom:250px;
 }
-
 .ticket{
 width:140px;
 right:80px;
 top:250px;
 }
-
 .sticker{
 width:280px;
 right:0;
 bottom:70px;
 }
-
 /* HAMBURGER */
-
 .menu-toggle{
-
 display:none;
 flex-direction:column;
 cursor:pointer;
 gap:6px;
 z-index:1001;
-
 }
-
 .menu-toggle span{
-
 width:30px;
 height:3px;
 background:white;
 transition:.4s;
-
 }
-
-
 /* WHATSAPP */
-
 .whatsapp{
-
 position:fixed;
 bottom:30px;
 right:30px;
 width:70px;
 height:70px;
 z-index:9999;
-
 animation:float 2s infinite;
 
 }
-
 .whatsapp img{
-
 width:100%;
 border-radius:50%;
 box-shadow:0 10px 30px rgba(0,0,0,.3);
-
 }
-
-
 @keyframes float{
-
 0%{
-
-transform:translateY(0px);
-
+    transform:translateY(0px);
 }
-
 50%{
-
 transform:translateY(-10px);
 
 }

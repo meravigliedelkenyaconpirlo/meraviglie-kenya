@@ -310,3 +310,22 @@ font-size:70px;
 }
 
 }
+@media(max-width:900px){
+
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+    .safari-hero h1{
+        font-size:45px;
+    }
+
+    .safari-hero p{
+        font-size:18px;
+    }
+
+    .why-pirlo h2{
+        font-size:40px;
+    }
+
+}

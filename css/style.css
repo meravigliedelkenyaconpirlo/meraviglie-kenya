@@ -193,16 +193,6 @@ width:280px;
 right:0;
 bottom:70px;
 }
-
-.hero-container{
-grid-template-columns:1fr;
-}
-
-.hero-left h1{
-font-size:70px;
-}
-
-}
 .hero-right{
     position:relative;
     height:100%;

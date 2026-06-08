@@ -106,44 +106,8 @@ color:white;
 text-decoration:none;
 font-weight:600;
 }
+
 .hero-right{
-    position:relative;
-    height:100%;
-}
-
-.floating{
-    position:absolute;
-}
-
-/* Suitcase */
-.bag{
-    width:320px;
-    right:120px;
-    bottom:80px;
-    transform:rotate(-12deg);
-}
-
-/* Hat */
-.hat{
-    width:140px;
-    right:280px;
-    top:180px;
-}
-
-/* Ticket */
-.ticket{
-    width:130px;
-    right:60px;
-    top:240px;
-}
-
-/* Logo */
-.sticker{
-    width:260px;
-    right:110px;
-    bottom:260px;
-}
-/*.hero-right{
 position:relative;
 height:100%;
 }
@@ -188,7 +152,7 @@ transform:rotate(-15deg);
 width:140px;
 right:250px;
 bottom:250px;
-}*/
+}
 
 /* HAMBURGER */
 .menu-toggle{

@@ -92,24 +92,7 @@ background:rgba(0,0,0,.35);
 position:relative;
 z-index:10;
 display:grid;
-grid-template-columns:1fr 1fr;
-align-items:center;
-padding:0 8%;
-height:100%;
-color:white;
-}
-.hero-left h1{
-font-size:120px;
-font-weight:800;
-line-height:1;
-margin:15px 0;
-}
-.mini-title{
-font-size:34px;
-font-style:italic;
-}
-.hero-left p{
-max-width:500px;
+/*grid-template-columns:1fr 1fr;*/
 font-size:20px;
 line-height:1.8;
 margin-bottom:35px;
@@ -124,6 +107,43 @@ text-decoration:none;
 font-weight:600;
 }
 .hero-right{
+    position:relative;
+    height:100%;
+}
+
+.floating{
+    position:absolute;
+}
+
+/* Suitcase */
+.bag{
+    width:320px;
+    right:120px;
+    bottom:80px;
+    transform:rotate(-12deg);
+}
+
+/* Hat */
+.hat{
+    width:140px;
+    right:280px;
+    top:180px;
+}
+
+/* Ticket */
+.ticket{
+    width:130px;
+    right:60px;
+    top:240px;
+}
+
+/* Logo */
+.sticker{
+    width:260px;
+    right:110px;
+    bottom:260px;
+}
+/*.hero-right{
 position:relative;
 height:100%;
 }
@@ -168,17 +188,8 @@ transform:rotate(-15deg);
 width:140px;
 right:250px;
 bottom:250px;
-}
-.ticket{
-width:140px;
-right:80px;
-top:250px;
-}
-.sticker{
-width:280px;
-right:0;
-bottom:70px;
-}
+}*/
+
 /* HAMBURGER */
 .menu-toggle{
 display:none;

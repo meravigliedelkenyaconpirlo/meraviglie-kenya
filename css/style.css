@@ -105,6 +105,8 @@ border-radius:40px;
 color:white;
 text-decoration:none;
 font-weight:600;
+display:inline-block;
+margin-top:20px;
 }
 
 .hero-right{
@@ -171,9 +173,12 @@ font-size:70px;
 }
 
 }
-
-
-
+.hero-left p{
+    max-width:500px;
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:50px; /* increase from 35px */
+}
 
 /* WHATSAPP */
 .whatsapp{

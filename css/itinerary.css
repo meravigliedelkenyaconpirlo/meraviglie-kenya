@@ -311,3 +311,28 @@ display:block;
 .info-box li{
     line-height:1.8;
 }
+/* =========================
+   SAFARI TOP GALLERY
+========================= */
+
+.safari-gallery{
+width:90%;
+max-width:1200px;
+margin:120px auto 50px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:8px;
+}
+
+.safari-gallery img{
+width:100%;
+height:280px;
+object-fit:cover;
+border-radius:15px;
+display:block;
+transition:.4s;
+
+}
+.safari-gallery img:hover{
+transform:scale(1.02);
+}

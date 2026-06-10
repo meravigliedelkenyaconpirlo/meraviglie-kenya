@@ -220,7 +220,6 @@ z-index:1;
 display:block;
 line-height:1;
 }
-
 .home-pirlo-circle img{
 position:absolute;
 bottom:10px;
@@ -229,114 +228,85 @@ transform:translateX(-50%);
 width:95px;
 z-index:2;
 }
-
 }
 @media(max-width:900px){
-
 .contact-container{
 grid-template-columns:1fr;
 }
-
 }
 /* MOBILE */
-
 @media(max-width:900px){
-
 .about-hero{
-
 grid-template-columns:1fr;
-
 }
-
 .about-text h1{
-
 font-size:50px;
-
 }
-
 .team-grid{
-
 grid-template-columns:1fr;
-
 }
-
 .values-section{
-
 grid-template-columns:1fr;
-
 }
-
 .team-title h2{
-
 font-size:45px;
-
 }
-
 }
 @media(max-width:900px){
-
 .day-card{
 flex-direction:column;
 padding:25px;
 }
-
 .day-number{
 width:80px;
 height:80px;
 font-size:28px;
 }
-
 .itinerary-header h1{
 font-size:42px;
 }
-
 .gallery-track{
 grid-template-columns:1fr;
 }
-
 }
 @media(max-width:900px){
-
 .hero-container{
 grid-template-columns:1fr;
 }
-
 .hero-right{
 display:none;
 }
-
 .hero-left h1{
 font-size:70px;
 }
-
 }
 @media(max-width:900px){
-
     .why-grid{
         grid-template-columns:1fr;
     }
-
     .safari-hero h1{
         font-size:45px;
     }
-
     .safari-hero p{
         font-size:18px;
     }
-
     .why-pirlo h2{
         font-size:40px;
     }
-
 }
 @media(max-width:900px){
-
     .safari-cta h2{
         font-size:42px;
     }
-
     .safari-cta p{
         font-size:18px;
     }
-
+}
+@media(max-width:768px){
+.safari-gallery{
+grid-template-columns:1fr;
+}
+.safari-gallery img{
+height:220px;
+}
 }

@@ -294,10 +294,10 @@ background:#d78c58;
 
 .pre-footer{
 background:#02185d;
-padding:90px 8%;
+padding:50px 8%;
 display:grid;
 grid-template-columns:1fr 1fr 1fr;
-gap:60px;
+gap:30px;
 color:white;
 position:relative;
 overflow:hidden;
@@ -330,13 +330,11 @@ margin-bottom:20px;
 font-size:28px;
 margin-bottom:25px;
 }
-
 .contact-item{
 display:flex;
-gap:20px;
+gap:15px;
 align-items:center;
-margin-bottom:25px;
-
+margin-bottom:15px;
 }
 
 .contact-item span{

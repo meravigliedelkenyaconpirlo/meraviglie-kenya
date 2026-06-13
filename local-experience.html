@@ -219,5 +219,15 @@ target="_blank">
 <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png">
 </a>
 <script src="script.js"></script>
+ <script>document.querySelectorAll('.experience-slider').forEach(slider=>{
+    let slides = slider.querySelectorAll('.slide');
+    let index = 0;
+    setInterval(()=>{
+        slides[index].classList.remove('active');
+        index = (index + 1) % slides.length;
+        slides[index].classList.add('active');
+    },3000);
+});
+</script>
 </body>
 </html>

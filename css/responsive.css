@@ -325,3 +325,18 @@ height:220px;
     }
 
 }
+@media(max-width:768px){
+
+    .experience-card{
+        grid-template-columns:1fr;
+    }
+
+    .local-hero h1{
+        font-size:45px;
+    }
+
+    .experience-slider{
+        height:280px;
+    }
+
+}

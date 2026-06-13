@@ -340,3 +340,14 @@ height:220px;
     }
 
 }
+@media(max-width:768px){
+
+.group-gallery{
+    grid-template-columns:1fr;
+}
+
+.group-gallery img{
+    height:250px;
+}
+
+}

@@ -310,3 +310,18 @@ grid-template-columns:1fr;
 height:220px;
 }
 }
+@media(max-width:768px){
+
+    .dropdown-menu{
+        position:static;
+        width:100%;
+        box-shadow:none;
+        border-radius:0;
+        background:#f7f7f7;
+    }
+
+    .dropdown-menu li a{
+        padding:12px 25px;
+    }
+
+}

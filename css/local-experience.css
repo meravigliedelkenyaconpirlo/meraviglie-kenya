@@ -30,8 +30,10 @@
 
 .experience-slider{
     flex:1;
-    min-width:450px;
-    height:400px;
+    /*min-width:450px;*/
+    width:45%;
+    height:420px;
+    /*height:400px;*/
     position:relative;
     overflow:hidden;
     border-radius:20px;
@@ -41,10 +43,10 @@
     position:absolute;
     inset:0;
     width:100%;
-    height:100%;
+    height:420px;
     object-fit:cover;
     opacity:0;
-    transition:.8s;
+    transition:.8s;  
 }
 
 .experience-slider img.active{

@@ -285,6 +285,9 @@ text-align:center;
     display:block;
 }
 
+.dropdown.active .dropdown-menu{
+    display:block;
+}
 
 
 

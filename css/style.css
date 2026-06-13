@@ -288,6 +288,19 @@ text-align:center;
 .dropdown.active .dropdown-menu{
     display:block;
 }
+/* Transfers page navbar */
+
+header{
+    background:#fff;
+}
+
+.nav-links a{
+    color:#333 !important;
+}
+
+.nav-links a:hover{
+    color:#d88a54 !important;
+}
 
 
 

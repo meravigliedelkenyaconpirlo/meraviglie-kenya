@@ -426,7 +426,6 @@ margin-top:20px;
 .home-pirlo-item{
     text-align:center;
 }
-
 .home-pirlo-circle{
     width:120px;
     height:120px;
@@ -469,6 +468,22 @@ margin-top:20px;
     color:#fff;
     font-family:cursive;
 }
+.home-pirlo-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
+.home-pirlo-link:hover .home-pirlo-circle{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+
+.home-pirlo-link:hover h3{
+    color:#d88a4a;
+}
+
+
 /* HOME EXCURSIONS BANNER */
 
 .home-excursions{

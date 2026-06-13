@@ -92,3 +92,20 @@
     border-radius:40px;
     font-weight:700;
 }
+/* Transfers page navbar */
+
+header{
+    background:#fff;
+}
+
+.nav-links a{
+    color:#333 !important;
+}
+
+.nav-links a:hover{
+    color:#d88a54 !important;
+}
+
+.dropdown-content a{
+    color:#333 !important;
+}

@@ -108,3 +108,26 @@ showReview(index);
 })
 
 })
+const safariDropdown = document.getElementById("safariDropdown");
+
+if(safariDropdown){
+
+    safariDropdown.addEventListener("click", function(e){
+
+        if(window.innerWidth <= 768){
+
+            e.stopPropagation();
+
+            safariDropdown.classList.toggle("active");
+
+        }
+
+    });
+
+    document.addEventListener("click", function(){
+
+        safariDropdown.classList.remove("active");
+
+    });
+
+}

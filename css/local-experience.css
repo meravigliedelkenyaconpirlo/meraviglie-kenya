@@ -31,7 +31,7 @@
 .experience-slider{
     flex:1;
     min-width:450px;
-    height:320px;
+    height:400px;
     position:relative;
     overflow:hidden;
     border-radius:20px;

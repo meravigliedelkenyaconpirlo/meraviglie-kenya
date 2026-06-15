@@ -13,328 +13,180 @@
     object-fit:cover;
     border-radius:15px;
 }
- ===========================
-   GROUP TOUR PAGE STYLES
-=========================== */
+ /* =====================================
+   GROUP TOUR PAGE
+===================================== */
+
+.group-container{
+    max-width:1200px;
+    margin:auto;
+    padding:0 20px;
+}
+
+/* HERO */
+
+.group-hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url('images/group-kenya-banner.jpg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.hero-content{
+    max-width:850px;
+    text-align:center;
+    color:#fff;
+    padding:50px;
+    background:rgba(0,0,0,.25);
+    border-radius:25px;
+}
+
+.hero-tag{
+    display:inline-block;
+    padding:10px 20px;
+    background:rgba(255,255,255,.15);
+    border-radius:30px;
+    margin-bottom:20px;
+}
+
+.hero-content h1{
+    font-size:clamp(3rem,7vw,5rem);
+    margin-bottom:20px;
+    color:#fff;
+}
+
+.hero-content p{
+    font-size:1.2rem;
+    line-height:1.8;
+    color:#fff;
+    margin-bottom:30px;
+}
+
+.hero-btn,
+.book-btn{
+    display:inline-block;
+    background:#f59e0b;
+    color:#fff;
+    padding:15px 35px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:700;
+    transition:.3s;
+}
+
+.hero-btn:hover,
+.book-btn:hover{
+    background:#d97706;
+    transform:translateY(-3px);
+}
+
+/* SECTIONS */
 
 .group-intro,
 .group-highlights,
 .group-accommodation,
-.group-departure {
-    padding: 80px 20px;
+.group-departure{
+    padding:80px 0;
 }
 
-.group-intro {
-    background: #fffaf3;
+.group-intro{
+    background:#fffaf3;
 }
 
-.group-highlights {
-    background: #f5f8f6;
+.group-highlights{
+    background:#f7f7f7;
 }
 
-.group-accommodation {
-    background: #ffffff;
+.group-accommodation{
+    background:#ffffff;
 }
 
-.group-departure {
-    background: linear-gradient(135deg, #0f766e, #155e75);
-    color: #fff;
+.group-departure{
+    background:linear-gradient(135deg,#0f766e,#155e75);
 }
 
-.group-container {
-    max-width: 1200px;
-    margin: auto;
+.group-container h2{
+    text-align:center;
+    font-size:2.5rem;
+    color:#0f766e;
+    margin-bottom:30px;
 }
 
-.group-container h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    color: #0f766e;
-    margin-bottom: 25px;
-    position: relative;
+.group-container p{
+    text-align:center;
+    line-height:1.9;
+    color:#555;
 }
 
-.group-departure h2 {
-    color: #fff;
+/* CARDS */
+
+.highlight-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    margin-top:50px;
 }
 
-.group-container h2::after {
-    content: "";
-    display: block;
-    width: 90px;
-    height: 4px;
-    background: #f59e0b;
-    margin: 12px auto;
-    border-radius: 5px;
+.highlight-card{
+    background:#fff;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    border-top:5px solid #f59e0b;
 }
 
-.group-container p {
-    font-size: 1.1rem;
-    line-height: 1.9;
-    color: #555;
-    text-align: center;
-    margin-bottom: 20px;
+.highlight-card h3{
+    color:#0f766e;
+    margin-bottom:15px;
 }
 
-.group-accommodation p,
-.group-intro p {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
+/* DEPARTURE */
 
-/* ===========================
-   HIGHLIGHTS GRID
-=========================== */
-
-.highlight-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-    margin-top: 50px;
-}
-
-.highlight-card {
-    background: #fff;
-    padding: 30px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-    transition: all 0.4s ease;
-    border-top: 5px solid #f59e0b;
-}
-
-.highlight-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
-}
-
-.highlight-card h3 {
-    font-size: 1.4rem;
-    color: #0f766e;
-    margin-bottom: 15px;
-}
-
-.highlight-card p {
-    color: #666;
-    font-size: 1rem;
-}
-
-/* ===========================
-   DEPARTURE BOX
-=========================== */
-
-.departure-box {
-    background: rgba(255,255,255,0.12);
-   -webkit-backdrop-filter: blur(10px);
-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 40px;
-    max-width: 700px;
-    margin: auto;
-    text-align: center;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-}
-
-.departure-box h3 {
-    font-size: 2rem;
-    color: #ffd166;
-    margin-bottom: 15px;
-}
-
-.departure-box p {
-    color: #f8f8f8;
-    margin-bottom: 30px;
-}
-
-/* ===========================
-   BOOK BUTTON
-=========================== */
-
-.book-btn {
-    display: inline-block;
-    background: #f59e0b;
-    color: white;
-    text-decoration: none;
-    padding: 15px 35px;
-    border-radius: 50px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    transition: 0.3s ease;
-    box-shadow: 0 5px 15px rgba(245,158,11,0.4);
-}
-
-.book-btn:hover {
-    background: #d97706;
-    transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(245,158,11,0.5);
-}
-
-/* ===========================
-   MOBILE RESPONSIVE
-=========================== */
-
-@media (max-width: 768px) {
-
-    .group-container h2 {
-        font-size: 2rem;
-    }
-
-    .group-container p {
-        font-size: 1rem;
-    }
-
-    .departure-box {
-        padding: 25px;
-    }
-
-    .departure-box h3 {
-        font-size: 1.6rem;
-    }
-
-}
-/* ==========================
-   HERO SECTION
-========================== */
-
-.group-hero {
-    min-height: 100vh;
-    width: 100%;
-    position: relative;
-
-    background:
-        linear-gradient(
-            rgba(0,0,0,0.25),
-            rgba(0,0,0,0.35)
-        ),
-        url('images/group-kenya-banner.jpg');
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.hero-overlay {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-}
-
-.hero-content {
-   max-width:800px;
-    margin: auto;
-    color: white;
-    padding:50px;
-    background:rgba(0,0,0,0.25);
-    backdrop-filter:blur(10px);
-    border-radius:25px;
-    border:1px solid rgba(255,255,255,0.15);
-}
-
-.hero-tag {
-    display: inline-block;
-    background: rgba(255,255,255,0.15);
-    -webkit-backdrop-filter: blur(10px);
-backdrop-filter: blur(10px);
-    padding: 10px 20px;
-    border-radius: 30px;
-    margin-bottom: 25px;
-    font-size: 1rem;
-    letter-spacing: 1px;
-}
-.hero-content h1 {
-    font-size: clamp(2.8rem, 8vw, 4.5rem);
-    margin-bottom: 20px;
-    line-height: 1.1;
-    text-shadow: 0 5px 20px rgba(0,0,0,0.4);
-}
-
-.hero-content p {
-    font-size: 1.3rem;
-    max-width: 700px;
-    margin: auto auto 35px;
-    line-height: 1.8;
-    color: #f5f5f5;
-}
-
-.hero-btn {
-    display: inline-block;
-    background: #f59e0b;
-    color: white;
-    text-decoration: none;
-    padding: 18px 40px;
-    border-radius: 50px;
-    font-size: 1.1rem;
-    font-weight: 700;
-    transition: 0.4s ease;
-    box-shadow: 0 10px 25px rgba(245,158,11,0.4);
-}
-
-.hero-btn:hover {
-    background: #d97706;
-    transform: translateY(-4px);
-}
-.hero-left{
-    max-width:800px;
+.departure-box{
+    max-width:700px;
     margin:auto;
     text-align:center;
-
-    color:white;
-
-    padding:50px;
-
-    background:rgba(0,0,0,.25);
-
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-
-    border-radius:25px;
+    padding:40px;
+    background:rgba(255,255,255,.1);
+    border-radius:20px;
 }
-/* ==========================
-   MOBILE
-========================== */
 
-@media (max-width:768px){
+.departure-box h2{
+    color:#fff;
+}
 
-    .group-hero{
-        height: 80vh;
+.departure-box h3{
+    color:#ffd166;
+    margin-bottom:15px;
+}
+
+.departure-box p{
+    color:#fff;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .hero-content{
+        padding:30px;
     }
 
-    .hero-content h1{
-        font-size: 2.8rem;
+    .group-container h2{
+        font-size:2rem;
     }
 
     .hero-content p{
-        font-size: 1rem;
+        font-size:1rem;
     }
 
-    .hero-btn{
-        padding: 15px 30px;
-    }
-}
-.hero-btn,
-.book-btn{
-    cursor:pointer;
-}
-.hero-btn:hover,
-.book-btn:hover{
-    transform:translateY(-4px) scale(1.03);
-}
-header{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    background:transparent;
-    z-index:1000;
-}
-html,
-body{
-    overflow-x:hidden;
-    width:100%;
 }

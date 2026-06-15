@@ -275,18 +275,6 @@ backdrop-filter: blur(10px);
     transform: translateY(-4px);
 }
 
-.hero-left h1{
-    font-size:5rem;
-    font-weight:800;
-    line-height:1;
-    margin-bottom:20px;
-}
-
-.hero-left p{
-    font-size:1.4rem;
-    line-height:1.8;
-}
-
 /* ==========================
    MOBILE
 ========================== */
@@ -329,14 +317,4 @@ header.scrolled{
     background:#ffffff;
     box-shadow:0 2px 15px rgba(0,0,0,0.1);
 }
-<script>
-window.addEventListener('scroll', function() {
-    const header = document.querySelector('header');
 
-    if(window.scrollY > 50){
-        header.classList.add('scrolled');
-    } else {
-        header.classList.remove('scrolled');
-    }
-});
-</script>

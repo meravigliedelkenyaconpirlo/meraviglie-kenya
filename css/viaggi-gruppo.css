@@ -126,7 +126,8 @@
 
 .departure-box {
     background: rgba(255,255,255,0.12);
-    backdrop-filter: blur(8px);
+   -webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 40px;
     max-width: 700px;
@@ -197,7 +198,7 @@
 ========================== */
 
 .group-hero {
-    height: 100vh;
+     min-height:100vh;
     background:
         linear-gradient(
            rgba(0,0,0,0.25),
@@ -233,16 +234,16 @@
 .hero-tag {
     display: inline-block;
     background: rgba(255,255,255,0.15);
-    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
     padding: 10px 20px;
     border-radius: 30px;
     margin-bottom: 25px;
     font-size: 1rem;
     letter-spacing: 1px;
 }
-
 .hero-content h1 {
-    font-size: 4.5rem;
+    font-size: clamp(2.8rem, 8vw, 4.5rem);
     margin-bottom: 20px;
     line-height: 1.1;
     text-shadow: 0 5px 20px rgba(0,0,0,0.4);
@@ -272,19 +273,6 @@
 .hero-btn:hover {
     background: #d97706;
     transform: translateY(-4px);
-}
-
-.group-hero{
-    min-height:100vh;
-    background:url('images/kenya-group.jpg') center center/cover;
-    display:flex;
-    align-items:center;
-}
-
-.hero-left{
-    max-width:650px;
-    margin-left:8%;
-    color:white;
 }
 
 .hero-left h1{
@@ -320,7 +308,14 @@
     .hero-btn{
         padding: 15px 30px;
     }
-
+}
+.hero-btn,
+.book-btn{
+    cursor:pointer;
+}
+.hero-btn:hover,
+.book-btn:hover{
+    transform:translateY(-4px) scale(1.03);
 }
 header{
     position:absolute;
@@ -334,3 +329,14 @@ header.scrolled{
     background:#ffffff;
     box-shadow:0 2px 15px rgba(0,0,0,0.1);
 }
+<script>
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+
+    if(window.scrollY > 50){
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
+</script>

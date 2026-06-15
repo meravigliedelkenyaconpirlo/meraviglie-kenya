@@ -193,3 +193,7 @@ url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5');
     }
 
 }
+.group-hero{
+    min-height:500px !important;
+    background:red !important;
+}

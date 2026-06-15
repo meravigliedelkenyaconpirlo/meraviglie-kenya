@@ -298,5 +298,17 @@ class="whatsapp"
 target="_blank">
 <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png">
 </a>
+  <script>
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+
+    if(window.scrollY > 50){
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
+</script>
+</body>
 </body>
 </html>

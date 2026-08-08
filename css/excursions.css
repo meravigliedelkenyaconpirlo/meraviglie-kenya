@@ -130,3 +130,23 @@ body{
 body{
     overflow-y:scroll !important;
 }
+/* =========================
+   EXCURSION GALLERY
+========================= */
+
+.excursion-gallery{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:10px;
+}
+
+.excursion-gallery img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    display:block;
+    border-radius:12px;
+}

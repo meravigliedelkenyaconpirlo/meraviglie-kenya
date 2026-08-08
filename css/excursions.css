@@ -187,3 +187,89 @@ body{
     font-size:17px;
     line-height:1.9;
 }
+/* =========================
+   EXCURSION CARDS
+========================= */
+
+.excursions{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+}
+
+.excursions-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:30px;
+}
+
+.excursion-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    display:flex;
+    flex-direction:column;
+    transition:transform .3s ease, box-shadow .3s ease;
+}
+
+.excursion-card:hover{
+    transform:translateY(-7px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+.excursion-card > img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    display:block;
+}
+
+.excursion-content{
+    padding:25px;
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.excursion-duration{
+    display:inline-block;
+    align-self:flex-start;
+    background:#d88a4a;
+    color:#fff;
+    padding:7px 13px;
+    border-radius:30px;
+    font-size:12px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.excursion-content h3{
+    font-size:23px;
+    color:#111;
+    margin-bottom:12px;
+}
+
+.excursion-content p{
+    color:#666;
+    line-height:1.7;
+    font-size:15px;
+    margin-bottom:25px;
+}
+
+.excursion-btn{
+    display:inline-block;
+    align-self:flex-start;
+    margin-top:auto;
+    padding:11px 22px;
+    background:#1f2c68;
+    color:#fff;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.excursion-btn:hover{
+    background:#d88a4a;
+}

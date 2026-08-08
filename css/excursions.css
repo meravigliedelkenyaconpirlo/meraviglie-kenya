@@ -25,11 +25,16 @@
     margin:auto;
     line-height:1.8;
 }
-
 .excursions-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    display:grid !important;
+    grid-template-columns:repeat(3,1fr) !important;
     gap:30px;
+    width:100%;
+}
+
+.excursion-card{
+    display:flex !important;
+    flex-direction:column;
 }
 
 .excursion-card:hover{

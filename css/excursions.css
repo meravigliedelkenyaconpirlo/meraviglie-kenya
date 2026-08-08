@@ -150,3 +150,15 @@ body{
     display:block;
     border-radius:12px;
 }
+@media(max-width:768px){
+
+    .excursion-gallery{
+        grid-template-columns:1fr;
+        width:92%;
+    }
+
+    .excursion-gallery img{
+        height:250px;
+    }
+
+}

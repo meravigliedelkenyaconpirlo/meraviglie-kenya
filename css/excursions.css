@@ -116,3 +116,17 @@ body{
 .excursions{
     min-height:100vh;
 }
+.excursions{
+    display:block !important;
+    min-height:3000px !important;
+}
+
+.excursions-grid{
+    display:grid !important;
+    grid-template-columns:repeat(3,1fr) !important;
+    gap:30px !important;
+}
+
+body{
+    overflow-y:scroll !important;
+}

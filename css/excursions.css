@@ -273,3 +273,26 @@ body{
 .excursion-btn:hover{
     background:#d88a4a;
 }
+@media(max-width:900px){
+
+    .excursions-grid{
+        grid-template-columns:repeat(2, 1fr);
+    }
+
+}
+
+@media(max-width:600px){
+
+    .excursions{
+        width:92%;
+    }
+
+    .excursions-grid{
+        grid-template-columns:1fr;
+    }
+
+    .excursion-card > img{
+        height:250px;
+    }
+
+}

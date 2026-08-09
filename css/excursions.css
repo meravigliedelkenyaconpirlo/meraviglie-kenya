@@ -345,3 +345,25 @@ body{
     background:#1da851;
     transform:translateY(-2px);
 }
+@media(max-width:600px){
+
+    .excursion-cta{
+        width:92%;
+        margin:60px auto;
+        padding:45px 20px;
+    }
+
+    .excursion-cta h2{
+        font-size:30px;
+    }
+
+    .excursion-cta p{
+        font-size:16px;
+    }
+
+    .excursion-cta-btn{
+        padding:13px 22px;
+        font-size:15px;
+    }
+
+}

@@ -587,3 +587,95 @@
     }
 
 }
+/* =========================
+   PACKAGES CTA
+========================= */
+
+.packages-cta{
+    width:90%;
+    max-width:1200px;
+    margin:30px auto 80px;
+    padding:65px 30px;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,.45),
+            rgba(0,0,0,.45)
+        ),
+        url("../images/kenya-complete.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    border-radius:25px;
+    text-align:center;
+    color:#fff;
+}
+
+.packages-cta-content{
+    max-width:750px;
+    margin:auto;
+}
+
+.packages-cta span{
+    color:#d88a4a;
+    font-family:cursive;
+    font-size:21px;
+}
+
+.packages-cta h2{
+    font-size:40px;
+    margin:10px 0 15px;
+}
+
+.packages-cta p{
+    font-size:17px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.packages-cta-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+
+    padding:14px 28px;
+
+    background:#25D366;
+    color:#fff;
+
+    text-decoration:none;
+    border-radius:30px;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.packages-cta-btn:hover{
+    background:#1da851;
+    transform:translateY(-2px);
+}
+
+@media(max-width:600px){
+
+    .packages-cta{
+        width:92%;
+        padding:50px 20px;
+        margin-bottom:60px;
+    }
+
+    .packages-cta h2{
+        font-size:30px;
+    }
+
+    .packages-cta p{
+        font-size:16px;
+    }
+
+    .packages-cta-btn{
+        padding:13px 20px;
+        font-size:14px;
+    }
+
+}

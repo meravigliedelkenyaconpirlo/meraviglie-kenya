@@ -296,3 +296,52 @@ body{
     }
 
 }
+/* =========================
+   EXCURSION CTA
+========================= */
+
+.excursion-cta{
+    width:90%;
+    max-width:1200px;
+    margin:80px auto;
+    padding:60px 30px;
+    background:#1f2c68;
+    border-radius:25px;
+    text-align:center;
+}
+
+.excursion-cta-content{
+    max-width:750px;
+    margin:auto;
+}
+
+.excursion-cta h2{
+    color:#fff;
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.excursion-cta p{
+    color:#fff;
+    font-size:17px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.excursion-cta-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:14px 28px;
+    background:#25D366;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.excursion-cta-btn:hover{
+    background:#1da851;
+    transform:translateY(-2px);
+}

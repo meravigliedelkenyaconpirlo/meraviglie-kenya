@@ -515,3 +515,30 @@ footer p{
     }
 
 }
+/* =========================
+   MOBILE MENU BUTTON
+========================= */
+
+@media(max-width:900px){
+
+    .menu-toggle{
+        display:flex;
+        width:40px;
+        height:40px;
+        justify-content:center;
+        align-items:center;
+        gap:6px;
+        cursor:pointer;
+        position:relative;
+        z-index:10001;
+    }
+
+    .menu-toggle span{
+        display:block;
+        width:28px;
+        height:3px;
+        background:#1f2c68;
+        border-radius:3px;
+    }
+
+}

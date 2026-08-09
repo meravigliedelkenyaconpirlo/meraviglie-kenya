@@ -296,3 +296,28 @@
 .package-btn:hover{
     background:#d88a4a;
 }
+@media(max-width:900px){
+
+    .packages-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .packages-grid{
+        grid-template-columns:1fr;
+        gap:25px;
+    }
+
+    .package-image{
+        height:230px;
+    }
+
+    .package-content{
+        padding:20px;
+    }
+
+}

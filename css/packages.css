@@ -1,1 +1,165 @@
+/* =========================
+   PACCHETTI COMPLETI
+========================= */
 
+.packages-container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.packages-hero{
+    min-height:75vh;
+    position:relative;
+
+    background-image:url("../images/kenya-package.jpg");
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+}
+
+.packages-hero-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+}
+
+.packages-hero-content{
+    position:relative;
+    z-index:2;
+    max-width:850px;
+    padding:40px 20px;
+    color:#fff;
+}
+
+.packages-hero-content span{
+    font-size:22px;
+    color:#d88a4a;
+    font-family:cursive;
+}
+
+.packages-hero-content h1{
+    font-size:65px;
+    line-height:1.1;
+    margin:15px 0;
+}
+
+.packages-hero-content p{
+    font-size:20px;
+    line-height:1.7;
+    margin-bottom:30px;
+}
+
+.packages-hero-btn{
+    display:inline-block;
+    background:#d88a4a;
+    color:#fff;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.packages-hero-btn:hover{
+    background:#1f2c68;
+    transform:translateY(-2px);
+}
+
+
+/* =========================
+   INTRO
+========================= */
+
+.packages-intro{
+    padding:70px 0 40px;
+    text-align:center;
+}
+
+.packages-small-title{
+    color:#d88a4a;
+    font-size:21px;
+    font-family:cursive;
+}
+
+.packages-intro h2{
+    font-size:40px;
+    color:#111;
+    margin:10px 0 20px;
+}
+
+.packages-intro p{
+    max-width:850px;
+    margin:auto;
+    padding:0 20px;
+    color:#666;
+    font-size:17px;
+    line-height:1.9;
+}
+
+
+/* =========================
+   PACKAGES SECTION
+========================= */
+
+.packages-section{
+    padding:40px 0 80px;
+}
+
+.packages-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.packages-title h2{
+    font-size:40px;
+    color:#111;
+}
+
+.packages-title p{
+    color:#666;
+    margin-top:10px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .packages-hero{
+        min-height:65vh;
+    }
+
+    .packages-hero-content h1{
+        font-size:45px;
+    }
+
+    .packages-hero-content p{
+        font-size:17px;
+    }
+
+    .packages-intro{
+        padding:50px 0 30px;
+    }
+
+    .packages-intro h2{
+        font-size:30px;
+    }
+
+    .packages-intro p{
+        font-size:16px;
+    }
+
+}

@@ -321,3 +321,138 @@
     }
 
 }
+/* =========================
+   WHAT IS INCLUDED
+========================= */
+
+.packages-included{
+    background:#f7f7f7;
+    padding:80px 0;
+}
+
+.packages-included-header{
+    text-align:center;
+    max-width:850px;
+    margin:0 auto 50px;
+}
+
+.packages-included-header > span{
+    color:#d88a4a;
+    font-size:21px;
+    font-family:cursive;
+}
+
+.packages-included-header h2{
+    font-size:40px;
+    color:#111;
+    margin:10px 0 15px;
+}
+
+.packages-included-header p{
+    color:#666;
+    font-size:17px;
+    line-height:1.8;
+}
+
+
+/* INCLUDED GRID */
+
+.included-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+
+/* ITEM */
+
+.included-item{
+    background:#fff;
+    padding:30px 25px;
+    border-radius:18px;
+    text-align:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.06);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.included-item:hover{
+    transform:translateY(-6px);
+    box-shadow:0 14px 30px rgba(0,0,0,.10);
+}
+
+
+/* ICON */
+
+.included-icon{
+    width:65px;
+    height:65px;
+
+    margin:0 auto 18px;
+
+    border-radius:50%;
+
+    background:#1f2c68;
+
+    color:#fff;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:25px;
+}
+
+.included-item h3{
+    font-size:20px;
+    color:#111;
+    margin-bottom:10px;
+}
+
+.included-item p{
+    color:#666;
+    font-size:14px;
+    line-height:1.7;
+    margin:0;
+}
+
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+    .included-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .packages-included{
+        padding:60px 0;
+    }
+
+    .packages-included-header h2{
+        font-size:30px;
+    }
+
+    .packages-included-header p{
+        font-size:16px;
+        padding:0 15px;
+    }
+
+    .included-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .included-item{
+        padding:25px 20px;
+    }
+
+}

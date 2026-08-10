@@ -397,3 +397,62 @@ header{
     }
 
 }
+/* =========================
+   TRANSFER CTA CONTENT
+========================= */
+
+.transfer-cta-content{
+    max-width:800px;
+    margin:auto;
+}
+
+.transfer-cta span{
+    display:block;
+    color:#fff;
+    font-size:21px;
+    font-family:cursive;
+    margin-bottom:8px;
+}
+
+.transfer-cta h2{
+    margin-bottom:18px;
+}
+
+.transfer-cta p{
+    max-width:700px;
+    margin:0 auto 30px;
+    font-size:17px;
+    line-height:1.8;
+}
+
+.btn-transfer{
+    transition:.3s;
+}
+
+.btn-transfer:hover{
+    background:#1f2c68;
+    color:#fff;
+    transform:translateY(-3px);
+}
+@media(max-width:600px){
+
+    .transfer-cta{
+        padding:60px 20px;
+    }
+
+    .transfer-cta h2{
+        font-size:30px;
+    }
+
+    .transfer-cta p{
+        font-size:16px;
+    }
+
+    .btn-transfer{
+        padding:13px 22px;
+        font-size:14px;
+    }
+
+}
+
+

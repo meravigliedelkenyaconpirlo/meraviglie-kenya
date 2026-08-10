@@ -301,9 +301,128 @@ header{
 .nav-links a:hover{
     color:#d88a54 !important;
 }
+/* =========================
+   LANGUAGE SELECTOR
+========================= */
+
+.language-selector{
+    position:relative;
+    margin-left:15px;
+    z-index:1005;
+}
+
+.language-button{
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    background:transparent;
+    border:1px solid rgba(255,255,255,.5);
+
+    color:#fff;
+
+    padding:9px 14px;
+
+    border-radius:25px;
+
+    font-family:'Poppins',sans-serif;
+    font-size:14px;
+    font-weight:500;
+
+    cursor:pointer;
+}
+
+.language-button i{
+    font-size:10px;
+}
 
 
+/* LANGUAGE MENU */
 
+.language-menu{
+    position:absolute;
+
+    top:calc(100% + 10px);
+    right:0;
+
+    min-width:150px;
+
+    background:#fff;
+
+    border-radius:12px;
+
+    padding:8px 0;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+    display:none;
+
+    overflow:hidden;
+}
+
+.language-menu a{
+    display:block;
+
+    padding:10px 15px;
+
+    color:#333 !important;
+
+    text-decoration:none;
+
+    font-size:14px;
+
+    white-space:nowrap;
+}
+
+.language-menu a:hover{
+    background:#f5f5f5;
+    color:#d88a4a !important;
+}
+
+.language-menu .active-language{
+    font-weight:600;
+    color:#d88a4a !important;
+}
+
+
+/* SHOW MENU */
+
+.language-selector:hover .language-menu{
+    display:block;
+}
+/* WHITE NAVBAR PAGES */
+
+header .language-button{
+    color:#333;
+    border-color:rgba(0,0,0,.2);
+}
+
+header .language-button:hover{
+    border-color:#d88a4a;
+}
+/* =========================
+   LANGUAGE - MOBILE
+========================= */
+
+@media(max-width:900px){
+
+    .language-selector{
+        position:absolute;
+        top:25px;
+        right:75px;
+        margin:0;
+    }
+
+    .language-button{
+        padding:8px 11px;
+        font-size:13px;
+    }
+
+    .language-menu{
+        right:0;
+    }
+
+}
 
 
 
